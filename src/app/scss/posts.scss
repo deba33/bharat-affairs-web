@@ -1,0 +1,13 @@
+.post-image {
+  width: 300px;
+  max-width: 310px;
+  min-width: 290px;
+}
+
+@media not all and (min-width: 768px) {
+  .post-image {
+    width: 300px;
+    max-width: 310px;
+    min-width: 100px;
+  }
+}
