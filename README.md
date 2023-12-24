@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# About Bharat Affairs:
 
-## Getting Started
+Bharat Affairs offers Daily Current Affairs for All Govt Exams, including Bank, SSC, IBPS, UPSC, Railways, State Govt exams, and others, all in a single place.
 
-First, run the development server:
+- [Visit Website](https://bharat-affairs-web.vercel.app/) 
+    - Created using NextJS
+- [Download from Playstore](https://play.google.com/store/apps/details?id=com.debabrata.bharataaffairs) 
+    - Created using Flutter and Dart.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Stay updated with current affairs on a daily and monthly basis. Our app provides relevant news to help you keep track of current happenings. The user-friendly interface allows for easy reading of current affairs in a simple manner.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Key Features:
+- Read Daily News in 100 words or less
+- Attempt Daily MCQs (app only)
+- 100% free with no hidden fees or charges
+- Useful for All Competitive Entrance & Recruitment Exams
+- Best User Experience and Interface
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Competitive Exams Covered:
+- Banking & Insurance: SBI PO, Clerk, IBPS PO, Clerk, RRB, RBI Grade B Officer, Assistant, Insurance - LIC AAO, NICL AO, GICL AO, UIIC AO
+- Government Recruitment: SSC CGL, CHSL, Stenographer, Railway Recruitment Board (RRB) NTPC
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Disclaimer:
+Bharat Affairs app is not affiliated with any government or political entity. It is developed to aid students in their competitive exam preparation.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For intellectual property violations or DMCA rule violations, please contact us at affairs.bharat@gmail.com.
