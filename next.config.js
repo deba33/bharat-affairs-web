@@ -2,10 +2,7 @@
 const nextConfig = {
   images: {
     remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "play.google.com",
-      },
+      
     ],
   },
 };

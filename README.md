@@ -4,8 +4,6 @@ Bharat Affairs offers Daily Current Affairs for All Govt Exams, including Bank, 
 
 - [Visit Website](https://bharat-affairs-web.vercel.app/) 
     - Created using NextJS
-- [Download from Playstore](https://play.google.com/store/apps/details?id=com.debabrata.bharataaffairs) 
-    - Created using Flutter and Dart.
 
 Stay updated with current affairs on a daily and monthly basis. Our app provides relevant news to help you keep track of current happenings. The user-friendly interface allows for easy reading of current affairs in a simple manner.
 
