@@ -49,11 +49,11 @@ export default function PostsContainer({ isSidebarOpen }: PostsContainerProps) {
     <>
       {currentdate && (
         <>
-          <div className="max-sm:hidden w-full h-screen overflow-y-scroll">
+          <div className="max-sm:hidden w-full">
             <PostElements currentdate={currentdate} caData={caData} />
           </div>
           {!isSidebarOpen && (
-            <div className="sm:hidden h-screen overflow-y-scroll">
+            <div className="sm:hidden w-full">
               <PostElements currentdate={currentdate} caData={caData} />
             </div>
           )}
@@ -80,11 +80,11 @@ function PostElements({ currentdate, caData }: PostElementsProps) {
           key={index}
           className="w-full bg-slate-800 p-4 my-2 rounded flex flex-row max-md:flex-col justify-between max-md:items-center"
         >
-          <div className="flex flex-col gap-6 pr-2 w-full">
+          <div className="flex flex-col gap-2 pr-2">
             <p className="text-xl text-slate-300">
               {index + 1}. {item["header"]}
             </p>
-            <ReactMarkdown className="text-slate-300">
+            <ReactMarkdown className="prose prose-li:text-slate-300 prose-strong:text-yellow-600">
               {item["body"]}
             </ReactMarkdown>
           </div>

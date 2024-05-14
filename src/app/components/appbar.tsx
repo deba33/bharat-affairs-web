@@ -7,7 +7,7 @@ interface AppBarProps {
 
 export default function Appbar({ toggleSidebar }: AppBarProps) {
   return (
-    <div className="w-full flex flex-col">
+    <div className="flex flex-col mx-2 mt-2">
       <PrimaryAppbar />
       <SecondaryAppbar toggleSidebar={toggleSidebar} />
     </div>

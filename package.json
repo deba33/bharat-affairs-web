@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.13",
     "@vercel/analytics": "^1.1.1",
     "dotenv": "^16.3.1",
     "firebase": "^10.7.1",
