@@ -25,6 +25,8 @@ const config: Config = {
       // => @media (min-width: 1440px) { ... }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
 export default config

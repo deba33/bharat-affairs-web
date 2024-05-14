@@ -36,7 +36,7 @@ export default function Sidebar({ isSidebarOpen, closeSidebar }: SidebarProps) {
 
   return (
     <>
-      <div className="max-md:hidden h-screen overflow-y-scroll">
+      <div className="max-md:hidden">
         <SidebarElements
           dates={dates}
           keys={keys}
@@ -44,7 +44,7 @@ export default function Sidebar({ isSidebarOpen, closeSidebar }: SidebarProps) {
         />
       </div>
       {isSidebarOpen && (
-        <div className="md:hidden max-md:w-2/3 max-sm:w-full h-screen overflow-y-scroll">
+        <div className="md:hidden max-md:w-2/3 max-sm:w-full">
           <SidebarElements
             dates={dates}
             keys={keys}
@@ -71,9 +71,9 @@ function SidebarElements({ dates, keys, closeSidebar }: SidebarElementsProps) {
   };
   return (
     <div className="w-auto bg-slate-800 p-4 rounded flex flex-col gap-4 justify-center items-center">
-      <p className="text-2xl text-slate-300">Read Current Affairs</p>
+      <p className="text-xl text-slate-300">Read Current Affairs</p>
       {dates.length > 0 && typeof dates[0] === "string" && (
-        <div className="w-full border-2 p-2 rounded grid place-content-center">
+        <div className="w-full border-2 p-2 rounded grid place-content-center border-yellow-500">
           <p className="text-xl text-slate-300">
             📖 {new Date(dates[0]).toLocaleString("en-US", { month: "long" })}
           </p>
@@ -91,8 +91,8 @@ function SidebarElements({ dates, keys, closeSidebar }: SidebarElementsProps) {
           <p className="text-slate-300">{date}</p>
         </div>
       ))}
-      <div className="w-full bg-amber-950 hover:bg-amber-900 p-1 grid place-content-center cursor-pointer">
-        <p className="text-slate-300">Archive</p>
+      <div className="w-full bg-blue-500 hover:bg-blue-700 p-2 rounded grid place-content-center transition-shadow duration-300 shadow-md cursor-pointer">
+        <p className="text-slate-100">Archive</p>
       </div>
     </div>
   );
