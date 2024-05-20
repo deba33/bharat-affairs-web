@@ -91,9 +91,9 @@ function SidebarElements({ dates, keys, closeSidebar }: SidebarElementsProps) {
           <p className="text-slate-300">{date}</p>
         </div>
       ))}
-      <div className="w-full bg-blue-500 hover:bg-blue-700 p-2 rounded grid place-content-center transition-shadow duration-300 shadow-md cursor-pointer">
+      {/* <div className="w-full bg-blue-500 hover:bg-blue-700 p-2 rounded grid place-content-center transition-shadow duration-300 shadow-md cursor-pointer">
         <p className="text-slate-100">Archive</p>
-      </div>
+      </div> */}
     </div>
   );
 }

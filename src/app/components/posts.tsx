@@ -71,8 +71,17 @@ interface PostElementsProps {
 function PostElements({ currentdate, caData }: PostElementsProps) {
   return (
     <div className="w-full flex flex-col">
-      <div className="w-full bg-slate-800 p-4 rounded">
+      <div className="w-full bg-slate-800 p-4 rounded flex flex-row max-sm:flex-col max-sm:gap-2 items-center">
         <p className="text-xl text-slate-300">{currentdate}</p>
+        <div className="grow max-sm:hidden"></div>
+        <a
+          href="https://github.com/deba33/bharat-affairs-web/releases"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-blue-500 hover:bg-blue-700 text-white font-bold p-2 rounded max-sm:order-first"
+        >
+          Download Android App
+        </a>
       </div>
 
       {caData.map((item, index) => (
@@ -90,7 +99,7 @@ function PostElements({ currentdate, caData }: PostElementsProps) {
           </div>
           <div className="post-image max-md:order-first max-md:py-4 max-md:grid max-md:place-content-center flex flex-col">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt={item["imgurl"]} src={item["imgurl"]} />
+            <img className="m-1" alt={item["imgurl"]} src={item["imgurl"]}/>
             <p className="text-xs italic text-slate-300 mt-1">
               source: {item["source"]}
             </p>
