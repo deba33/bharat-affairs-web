@@ -36,4 +36,4 @@ yarn-error.log*
 next-env.d.ts
 
 /.firebase/
-git_merge_safe.bat
+git_merge_safe.sh
