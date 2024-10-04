@@ -1,12 +1,14 @@
-**This project is discontinued.**
-
 # About Bharat Affairs:
 
 Bharat Affairs offers Daily Current Affairs for All Govt Exams, including Bank, SSC, IBPS, UPSC, Railways, State Govt exams, and others, all in a single place.
 
+**[Website](https://bharat-affairs-web.vercel.app/)**
+
 **Android App [Download](https://github.com/deba33/bharat-affairs-web/releases/download/v2.0.2/bharat_affairs_v2.0.2.apk)**
 
-Stay updated with current affairs on a daily and monthly basis. Our app provides relevant news to help you keep track of current happenings. The user-friendly interface allows for easy reading of current affairs in a simple manner.
+Stay updated with current affairs on a daily and monthly basis.  
+Our app provides relevant news to help you keep track of current happenings.  
+The user-friendly interface allows for easy reading of current affairs in a simple manner.
 
 ### Key Features:
 - Read Daily News in 100 words or less
