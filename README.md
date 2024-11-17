@@ -12,7 +12,6 @@ The user-friendly interface allows for easy reading of current affairs in a simp
 
 ### Key Features:
 - Read Daily News in 100 words or less
-- Attempt Daily MCQs (app only)
 - 100% free with no hidden fees or charges
 - Useful for All Competitive Entrance & Recruitment Exams
 - Best User Experience and Interface
